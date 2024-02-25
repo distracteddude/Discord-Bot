@@ -1,5 +1,3 @@
-Sure, here's a template for your README file:
-
 ```
 # Discord Bot
 
