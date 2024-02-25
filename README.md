@@ -9,7 +9,7 @@ To use this bot, you need to have Python installed on your machine.
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/discord-bot.git
+git clone https://github.com/distracteddue/Discord-bot
 ```
 
 2. Install the required dependencies:
