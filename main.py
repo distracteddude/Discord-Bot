@@ -104,6 +104,27 @@ async def news(ctx, country):
 
     await ctx.send(f"Author: {author_name} \nTitle: {title}\nDescription: {description}\noriginal url: {news_url}")
 
+
+@bot.command
+async def age(ctx, name):
+    "Predicts the age of the person by their name. (command format: =age {name})"
+
+    base_url = 'https://api.agify.io/'
+
+    full_url = base_url + '?name=' + name 
+
+    response = requests.get(full_url)
+
+    x = response.json()
+
+
+    # print(response.json())
+
+
+    await ctx.send(f"Name: {x['name']}\nEstimate age: {x['age']}")
+
+
+
 @bot.command()
 async def help_me(ctx):
     "Shows the available commands"
