@@ -1,2 +1,54 @@
-# Discord-Bot
-A simple Discord Bot with basic functionalities such as showing weather, displaying the latest news etc.
+Sure, here's a template for your README file:
+
+```
+# Discord Bot
+
+A simple Discord Bot with basic functionalities like showing weather, displaying latest news, and more.
+
+## Getting Started
+
+To use this bot, you need to have Python installed on your machine.
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/yourusername/discord-bot.git
+```
+
+2. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Obtain necessary API keys:
+
+   - OpenWeatherMap API key for weather functionality.
+   - News API key for news functionality.
+
+4. Add your API keys and Discord bot token to the code.
+
+5. Run the bot:
+
+```bash
+python bot.py
+```
+
+## Commands
+
+- `=time`: Shows the current time.
+- `=date`: Shows the current date and time.
+- `=weather {city}`: Shows the weather of the specified city.
+- `=news {country}`: Shows the trending news of the specified country.
+- `=help_me`: Shows available commands.
+
+## Contributing
+
+Contributions are welcome! Feel free to submit pull requests or open issues if you encounter any problems or have suggestions for improvements.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+```
+
+Replace `yourusername` in the clone URL with your actual GitHub username. This README provides a brief overview of your bot, how to get started with it, the available commands, information on contributing, and the license under which the project is distributed. Adjust it according to your specific needs and preferences.
