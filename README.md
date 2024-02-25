@@ -1,4 +1,3 @@
-```
 # Discord Bot
 
 A simple Discord Bot with basic functionalities like showing weather, displaying latest news, and more.
@@ -8,7 +7,6 @@ A simple Discord Bot with basic functionalities like showing weather, displaying
 To use this bot, you need to have Python installed on your machine.
 
 1. Clone this repository:
-```
 
 ```bash
 git clone https://github.com/yourusername/discord-bot.git
