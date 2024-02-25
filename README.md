@@ -46,9 +46,3 @@ python bot.py
 
 Contributions are welcome! Feel free to submit pull requests or open issues if you encounter any problems or have suggestions for improvements.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
-
-Replace `yourusername` in the clone URL with your actual GitHub username. This README provides a brief overview of your bot, how to get started with it, the available commands, information on contributing, and the license under which the project is distributed. Adjust it according to your specific needs and preferences.
