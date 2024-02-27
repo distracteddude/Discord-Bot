@@ -108,7 +108,7 @@ async def news(ctx, country):
 async def apod(ctx):
     "APOD stands for Astronomy Picture Of the Day"
 
-    api_key = "AMmpulmOLI9PfAzdjtcPGx7g4iX2dybRJzhco43z"
+    api_key = "YOUR API KEY"
 
     url = "https://api.nasa.gov/planetary/apod?api_key=" + api_key
 
