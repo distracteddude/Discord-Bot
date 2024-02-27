@@ -104,6 +104,25 @@ async def news(ctx, country):
 
     await ctx.send(f"Author: {author_name} \nTitle: {title}\nDescription: {description}\noriginal url: {news_url}")
 
+@bot.command()
+async def apod(ctx):
+    "APOD stands for Astronomy Picture Of the Day"
+
+    api_key = "AMmpulmOLI9PfAzdjtcPGx7g4iX2dybRJzhco43z"
+
+    url = "https://api.nasa.gov/planetary/apod?api_key=" + api_key
+
+    response = requests.get(url)
+
+    x = response.json()
+
+    title = x['title']
+    
+    image_link = x['url']
+
+    await ctx.send(f"Title: {title}\n\n{image_link}")
+
+
 
 @bot.command
 async def age(ctx, name):
