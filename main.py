@@ -124,7 +124,7 @@ async def apod(ctx):
 
 
 
-@bot.command
+@bot.command()
 async def age(ctx, name):
     "Predicts the age of the person by their name. (command format: =age {name})"
 
@@ -142,6 +142,23 @@ async def age(ctx, name):
 
     await ctx.send(f"Name: {x['name']}\nEstimate age: {x['age']}")
 
+@bot.command()
+async def apod(ctx):
+    "APOD stands for Astronomy Picture Of the Day"
+
+    api_key = "AMmpulmOLI9PfAzdjtcPGx7g4iX2dybRJzhco43z"
+
+    url = "https://api.nasa.gov/planetary/apod?api_key=" + api_key
+
+    response = requests.get(url)
+
+    x = response.json()
+
+    title = x['title']
+    
+    image_link = x['url']
+
+    await ctx.send(f"{title}\n\n{image_link}")
 
 
 @bot.command()
