@@ -36,7 +36,6 @@ python bot.py
 - `=time`: Shows the current time.
 - `=date`: Shows the current date and time.
 - `=weather {city}`: Shows the weather of the specified city.
-- `=news {country}`: Shows the trending news of the specified country.
 - `=help_me`: Shows available commands.
 
 ## Contributing
